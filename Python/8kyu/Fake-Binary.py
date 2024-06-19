@@ -14,5 +14,5 @@ def fake_bin_1(x):
       result += '1'
   return result
 
-def fake_bin(x):
+def fake_bin_2(x):
     return ''.join('0' if c < '5' else '1' for c in x)
