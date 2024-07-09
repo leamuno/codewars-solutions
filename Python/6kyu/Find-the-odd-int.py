@@ -25,6 +25,6 @@ def find_it_1(seq):
             return num
 
 def find_it_2(seq):
-    for i in seq:
-        if seq.count(i)%2!=0:
-            return i
+    for num in seq:
+        if seq.count(num)%2!=0:
+            return num
